@@ -22,6 +22,7 @@ final class RiveChallengeViewController: UIViewController {
     
     private lazy var label: UILabel = {
         let label = UILabel()
+        label.font = .systemFont(ofSize: 21, weight: .bold)
         label.text = "Devpass"
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
