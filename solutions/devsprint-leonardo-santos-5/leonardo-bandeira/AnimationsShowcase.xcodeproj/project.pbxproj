@@ -13,9 +13,14 @@
 		4FB400D22925CBE3001E7313 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FB400D12925CBE3001E7313 /* Assets.xcassets */; };
 		4FB400D42925CC28001E7313 /* login_bear.riv in Resources */ = {isa = PBXBuildFile; fileRef = 4FB400D32925CC28001E7313 /* login_bear.riv */; };
 		4FE33862292BE1DD007BD11E /* RiveChallenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE33861292BE1DD007BD11E /* RiveChallenge.swift */; };
+		A03D2333293A90BE00106904 /* All.json in Resources */ = {isa = PBXBuildFile; fileRef = A03D2332293A90BE00106904 /* All.json */; };
 		A05A3E5A292D7F2F00D66247 /* Cartography in Frameworks */ = {isa = PBXBuildFile; productRef = A05A3E59292D7F2F00D66247 /* Cartography */; };
 		A05A3E5D292D7F4100D66247 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = A05A3E5C292D7F4100D66247 /* Lottie */; };
 		A05A3E60292D7F5C00D66247 /* RiveRuntime in Frameworks */ = {isa = PBXBuildFile; productRef = A05A3E5F292D7F5C00D66247 /* RiveRuntime */; };
+		A0B6751C29384142003FD8AE /* road.json in Resources */ = {isa = PBXBuildFile; fileRef = A0B6751829384142003FD8AE /* road.json */; };
+		A0B6751D29384142003FD8AE /* background.json in Resources */ = {isa = PBXBuildFile; fileRef = A0B6751929384142003FD8AE /* background.json */; };
+		A0B6751E29384142003FD8AE /* day-night.json in Resources */ = {isa = PBXBuildFile; fileRef = A0B6751A29384142003FD8AE /* day-night.json */; };
+		A0B6751F29384142003FD8AE /* car.json in Resources */ = {isa = PBXBuildFile; fileRef = A0B6751B29384142003FD8AE /* car.json */; };
 		FD5968012908A666002B9C6B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5968002908A666002B9C6B /* AppDelegate.swift */; };
 		FD5968032908A666002B9C6B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5968022908A666002B9C6B /* SceneDelegate.swift */; };
 		FD5968052908A666002B9C6B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5968042908A666002B9C6B /* HomeViewController.swift */; };
@@ -62,6 +67,11 @@
 		4FB400D12925CBE3001E7313 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4FB400D32925CC28001E7313 /* login_bear.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = login_bear.riv; sourceTree = "<group>"; };
 		4FE33861292BE1DD007BD11E /* RiveChallenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiveChallenge.swift; sourceTree = "<group>"; };
+		A03D2332293A90BE00106904 /* All.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = All.json; sourceTree = "<group>"; };
+		A0B6751829384142003FD8AE /* road.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = road.json; sourceTree = "<group>"; };
+		A0B6751929384142003FD8AE /* background.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = background.json; sourceTree = "<group>"; };
+		A0B6751A29384142003FD8AE /* day-night.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "day-night.json"; sourceTree = "<group>"; };
+		A0B6751B29384142003FD8AE /* car.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = car.json; sourceTree = "<group>"; };
 		FD5967FD2908A666002B9C6B /* AnimationsShowcase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationsShowcase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD5968002908A666002B9C6B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FD5968022908A666002B9C6B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -131,6 +141,18 @@
 				FD59684F2908D07A002B9C6B /* FirstSectionChallenge.swift */,
 			);
 			path = Challenge;
+			sourceTree = "<group>";
+		};
+		A0B6751729384132003FD8AE /* Lotties */ = {
+			isa = PBXGroup;
+			children = (
+				A0B6751929384142003FD8AE /* background.json */,
+				A0B6751B29384142003FD8AE /* car.json */,
+				A0B6751A29384142003FD8AE /* day-night.json */,
+				A03D2332293A90BE00106904 /* All.json */,
+				A0B6751829384142003FD8AE /* road.json */,
+			);
+			path = Lotties;
 			sourceTree = "<group>";
 		};
 		A0FFF3D2292D8DB200232FB3 /* Frameworks */ = {
@@ -251,6 +273,7 @@
 		FD5968612909A717002B9C6B /* LottieSection */ = {
 			isa = PBXGroup;
 			children = (
+				A0B6751729384132003FD8AE /* Lotties */,
 				FD5968632909A740002B9C6B /* LottieBasics.swift */,
 				FD5968652909A74D002B9C6B /* LottieChangeTextRuntime.swift */,
 				FD5968672909A7B8002B9C6B /* LottieChangeColorRuntime.swift */,
@@ -362,9 +385,14 @@
 			files = (
 				4FB400BE2925BE4F001E7313 /* cat.json in Resources */,
 				4FB400BC2925B2DA001E7313 /* burger.json in Resources */,
+				A0B6751F29384142003FD8AE /* car.json in Resources */,
 				4FB400D42925CC28001E7313 /* login_bear.riv in Resources */,
+				A0B6751E29384142003FD8AE /* day-night.json in Resources */,
+				A0B6751C29384142003FD8AE /* road.json in Resources */,
 				4FB400D22925CBE3001E7313 /* Assets.xcassets in Resources */,
+				A0B6751D29384142003FD8AE /* background.json in Resources */,
 				FD59680D2908A668002B9C6B /* LaunchScreen.storyboard in Resources */,
+				A03D2333293A90BE00106904 /* All.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
